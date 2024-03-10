@@ -1,0 +1,33 @@
+.online {
+    color: green;
+    font-size: 22x;
+    font-weight: 500;
+}
+
+.offline {
+    color: red;
+    font-size: 22x;
+    font-weight: 500;
+}
+
+.friendList {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.friendItem {
+    border: 2px black solid;
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.nameFriends {
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}

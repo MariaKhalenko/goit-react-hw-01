@@ -1,0 +1,32 @@
+.tableTransaction {
+    border: 2px solid #000000;
+    table-layout: fixed;
+    width: 800px;
+    margin: 50px 0px;
+    border-collapse: collapse;
+}
+
+.tableHead {
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px;
+    background-color: #4d4949;
+    border: 2px solid #000;
+}
+
+.tableData {
+    padding: 5px 0px;
+    border: 2px solid #000;
+    text-transform: capitalize;
+    font-size: 22px;
+    color:#000
+}
+
+.tableRowId:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.tableRowId:nth-child(even) {
+    background-color: #a8a6a6;
+}
